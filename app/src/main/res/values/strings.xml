@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TEST</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="lastname">Last Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="register">Register</string>
+    <string name="personalinformation">Personal Information</string>
+    <string name="coursedetails">Course Details</string>
+    <string name="feesdetails">Fees Details</string>
+    <string name="bookdetails">Book Details</string>
+    <string name="documentDeatils">Document Details</string>
+    <string name="examdetails">Exam Deatails</string>
+    <string name="country">Country Name</string>
+    <string name="email">Email</string>
+    <string name="contact">Contact</string>
+    <string name="town">Town</string>
+    <string name="referenceno.">Reference NO.</string>
+    <string name="hallticketdetails">Hall Ticket Details</string>
+    <string name="name">Name</string>
+    <string name="dob">DateOfBirth</string>
+    <string name="occupation">Occupation</string>
+    <string name="eduction">Education</string>
+    <string name="mobileno.">Mobile no.</string>
+    <string name="education">Education</string>
+</resources>

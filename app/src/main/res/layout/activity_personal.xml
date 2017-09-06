@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_personal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="myfirstscreen.com.myapplication.PersonalActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linear_layout">
+     <ImageView
+         android:layout_width="50dp"
+         android:layout_height="50dp"
+         android:src="@android:drawable/ic_menu_more"/>
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="50dp"
+          android:src="@android:drawable/ic_menu_add"
+          android:layout_gravity="center"
+          />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/linear_layout">
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="@string/name"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+            android:drawableLeft="@drawable/ic_accessibility_white_24dp"
+            android:drawablePadding="5dp"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name"
+        android:hint="@string/lastname"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dob"
+            android:hint="@string/dob"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/occu_pation"
+        android:hint="@string/occupation"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/education"
+            android:hint="Eduaction"
+            android:paddingTop="10dp"
+            android:drawableLeft="@drawable/ic_visibility_white_24dp"
+            android:drawablePadding="5dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mob_no"
+        android:hint="@string/mobileno."
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        android:background="@color/colorAccent"
+        android:id="@+id/but_ton"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

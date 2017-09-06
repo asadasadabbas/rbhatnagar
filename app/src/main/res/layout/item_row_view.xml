@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_movie_white_48dp"
+        android:id="@+id/image_item"/>
+
+    <TextView
+        android:id="@+id/text_view_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="25dp"
+        android:text="TEST1"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/sub_text_view_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST2"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/sub_text_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST3"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/sub_text_item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST4"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/sub_text_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST5"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:paddingTop="5dp"/>
+    <TextView
+        android:id="@+id/sub_text_item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEST6"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        android:paddingTop="5dp"/>
+</LinearLayout>
